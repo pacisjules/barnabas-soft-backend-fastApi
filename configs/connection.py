@@ -10,13 +10,13 @@ def db_config():
 
 def DATABASE_URL(
     connection: str = "postgresql",
-    username: str   = "pacis",
-    password: str   ="123",
-    host: str       = "127.0.0.1",
+    username: str   = "fspaqzexsyqjas",
+    password: str   ="bcc2babd692e74cd177ec5ded7472078c0f683a40c40d8c12995e380f867be7d",
+    host: str       = "ec2-54-208-139-247.compute-1.amazonaws.com",
     port: str       = "5432",
-    database: str   = "Barnabas_Db"
+    database: str   = "ec2-54-208-139-247.compute-1.amazonaws.com"
 ):
-    return str(connection+"://"+username+":"+password+"@"+host+":"+port+"/"+database)
+    return str(connection+"://fspaqzexsyqjas:bcc2babd692e74cd177ec5ded7472078c0f683a40c40d8c12995e380f867be7d@ec2-54-208-139-247.compute-1.amazonaws.com:5432/dtaklrvatcmos")
 
 database = databases.Database(DATABASE_URL())
 
