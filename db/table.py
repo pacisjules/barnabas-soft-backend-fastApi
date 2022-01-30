@@ -499,6 +499,7 @@ expenses_document= sqlalchemy.Table(
     sqlalchemy.Column("last_update_at", sqlalchemy.String),
 )
 
+
 #24 Table Expenses Document details
 expense_document_details= sqlalchemy.Table(
     "expense_document_details",
@@ -571,6 +572,8 @@ ShareHolder  = sqlalchemy.Table(
     sqlalchemy.Column("created_at", sqlalchemy.String),
     sqlalchemy.Column("last_update_at", sqlalchemy.String),
 )
+
+
 
 
 #Banking
