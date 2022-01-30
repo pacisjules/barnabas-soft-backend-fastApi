@@ -1,2 +1,1 @@
-# barnabas-soft-backend-fastApi
- for Financial and Economy
+# fastapi-demo-2
