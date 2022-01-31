@@ -546,7 +546,6 @@ expenses_advance= sqlalchemy.Table(
     sqlalchemy.Column("last_update_at", sqlalchemy.String),
 )
 
-
 #Share Holders
 
 
