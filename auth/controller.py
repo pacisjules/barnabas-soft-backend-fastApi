@@ -58,7 +58,7 @@ async def register(user: model.UserCreate):
 
     #Auth
     sender="appsendertestv1@gmail.com"
-    Email_password=str("Ishimwe@12")
+    Email_password=str("Ishashi@123")
 
     #Information
     me="Barnabs Software"
