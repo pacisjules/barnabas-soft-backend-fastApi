@@ -22,7 +22,7 @@ async def app_info():
     return {
         "app_name"      : "Financial and accounting system for the companies",
         "app_version"   : "1.0",
-        "app_framework" : "FastAPI (Python) Dev by Pacis Jules",
+        "app_framework" : "FastAPI (Python)",
         "app_date"      : "2021-01-01 20:48:10",
         "owner_name"    :"NTIGURIRWA Barnabe"
     }
